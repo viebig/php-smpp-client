@@ -1,0 +1,38 @@
+{
+   "name":"viebig/php-smpp",
+   "description":"Packaged PHP-based SMPP client lib",
+   "keywords":[
+      "smpp",
+      "sms",
+      "texting",
+      "gsm"
+   ],
+   "homepage":"http://github.com/viebig/php-smpp",
+   "type":"library",
+   "license":"LGPL",
+   "authors":[
+      {
+         "name":"Guilherme Viebig",
+         "email":"viebig@gmail.com"
+      },
+      {
+         "name":"Lucas Beda",
+         "email":"hbeda91@gmail.com"
+      },
+      {
+         "name":"Hans Duedal",
+         "email":"hd@oc.dk",
+         "homepage":"http://oc.dk"
+      }
+   ],
+   "require":{
+      "php":">=5.3.3",
+      "ext-sockets":"*",
+      "ext-mbstring":"*"
+   },
+   "autoload":{
+      "psr-4":{
+         "Viebig\\PhpSmpp\\":"lib/"
+      }
+   }
+}
